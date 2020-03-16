@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       initialRoute: Router.initialPage,
       onGenerateRoute: Router.onGenerateRoute,
-      navigatorKey: Router.navigatorKey,
+      navigatorKey: Router.navigator.key,
     );
   }
 }

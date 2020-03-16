@@ -1,0 +1,15 @@
+
+flutter packages pub run build_runner clean
+
+then
+
+flutter pub run build_runner watch --delete-conflicting-outputs
+
+
+
+or
+
+flutter packages pub run build_runner watch
+	or only one time run
+flutter packages pub run build_runner build
+
